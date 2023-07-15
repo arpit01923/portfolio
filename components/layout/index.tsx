@@ -8,7 +8,9 @@ const Layout: React.FC<Props> = ({ children }) => {
     return (
         <div>
             <Header />
-            {children}
+            <div className='container mx-auto p-5'>
+                {children}
+            </div>
         </div>
     )
 }
