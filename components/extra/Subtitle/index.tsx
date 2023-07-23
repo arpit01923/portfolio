@@ -1,14 +1,10 @@
-import React from 'react';
+import React from "react";
 interface Props {
     children: string | React.ReactNode;
-    classNames: string
+    classNames: string;
 }
 const SubTitle: React.FC<Props> = ({ children, classNames }) => {
-    return (
-        <h2 className={classNames}>
-            {children}
-        </h2>
-    )
-}
+    return <h2 className={classNames}>{children}</h2>;
+};
 
 export default SubTitle;
