@@ -1,6 +1,6 @@
 import SubTitle from "@/components/extra/Subtitle";
-import Title from "@/components/extra/Title";
 import ProjectCard from "@/components/extra/card/projectCard";
+import AnimateText from "@/components/standard/animateText";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -54,7 +54,9 @@ const personalProjects = [
 const Projects = () => {
     return (
         <section className="grid gap-5">
-            <Title classNames="text-3xl sm:text-4xl xl:text-6xl text-center font-bold">Innovative Creations!</Title>
+            <AnimateText className="text-3xl sm:text-4xl xl:text-6xl text-center font-bold">
+                Innovative Creations!
+            </AnimateText>
             <SubTitle classNames="text-lg uppercase font-bold">Professional Projects</SubTitle>
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
                 {professionalProjects.map((item, index) => (

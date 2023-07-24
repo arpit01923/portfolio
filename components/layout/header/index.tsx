@@ -1,8 +1,7 @@
+import Logo from "@/components/extra/logo";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
-import Logo from "@/components/extra/logo";
 
 const menuBar = [
     { name: "Home", link: "/" },
@@ -12,11 +11,8 @@ const menuBar = [
 ];
 const Header = () => {
     const router = useRouter();
-    const getPath = router?.pathname?.length ? menuBar?.find((item) => item.link === router.pathname) : null;
-    const [selectedMenu, setSelectedMenu] = useState(getPath || menuBar[0]);
 
     const clickHandler = (item: { name: string; link: string }) => {
-        setSelectedMenu(item);
         router.push(item.link);
     };
 
@@ -27,12 +23,17 @@ const Header = () => {
                     {menuBar?.map((item: { name: string; link: string }, index) => (
                         <li
                             key={index}
-                            className={
-                                selectedMenu?.name === item.name ? "border-b-2 border-black pb-1" : "cursor-pointer"
-                            }
+                            className={`relative group ${router.asPath === item.link ? "" : "cursor-pointer"}`}
                             onClick={() => clickHandler(item)}
                         >
                             {item.name}
+                            <span
+                                className={`h-0.5 inline-block bg-black absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
+                                    router.asPath === item.link ? "w-full" : "w-0"
+                                }`}
+                            >
+                                &nbsp;
+                            </span>
                         </li>
                     ))}
                 </ul>

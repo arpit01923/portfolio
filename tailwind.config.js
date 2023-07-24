@@ -10,6 +10,9 @@ module.exports = {
             colors: {
                 primary: "#008080",
             },
+            backgroundImage: {
+                circularLight: "repeating-radial-gradient(rgba(0,0,0,0.4),2px,#ffffff 5px,#ffffff 100px)",
+            },
         },
     },
     plugins: [],
