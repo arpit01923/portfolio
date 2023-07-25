@@ -6,7 +6,7 @@ import UserCard from "../card/userCard";
 const Biography = () => {
     return (
         <>
-            <AnimateText className="text-3xl sm:text-4xl xl:text-6xl text-center font-bold">
+            <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold">
                 Code with Passion!
             </AnimateText>
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-5">

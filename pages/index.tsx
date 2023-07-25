@@ -16,7 +16,7 @@ export default function Home() {
                 className="w-full h-auto"
             />
             <div className="grid gap-5">
-                <AnimateText className="text-3xl sm:text-4xl xl:text-6xl text-center md:text-left font-bold">
+                <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center md:text-left font-bold">
                     Unleashing the Creative Power of a Frontend Developer!
                 </AnimateText>
                 <p className="text-lg text-center md:text-left">

@@ -1,0 +1,8 @@
+const menuBar = [
+    { name: "Home", link: "/" },
+    { name: "About", link: "/about" },
+    { name: "Projects", link: "/projects" },
+    { name: "Articles", link: "/articles" },
+];
+
+export { menuBar };

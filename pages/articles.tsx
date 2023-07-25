@@ -1,5 +1,4 @@
-import SubTitle from "@/components/extra/Subtitle";
-import Title from "@/components/extra/Title";
+import AnimateText from "@/components/standard/animateText";
 import Link from "next/link";
 import { AiOutlineRead } from "react-icons/ai";
 
@@ -32,10 +31,9 @@ const Articles = () => {
     ];
     return (
         <section className="grid gap-5">
-            <Title classNames="text-3xl sm:text-4xl xl:text-6xl text-center font-bold">
+            <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold">
                 Words Can Change The World!
-            </Title>
-            <SubTitle classNames="text-lg uppercase font-bold">All Articles</SubTitle>
+            </AnimateText>
             {articles.map((item, index) => (
                 <Link href={item?.liveLink} key={index} target="_blank" className="relative w-full h-full">
                     <div className="relative border-2 shadow-lg shadow-black border-black rounded-lg bg-white h-full w-full p-5">
