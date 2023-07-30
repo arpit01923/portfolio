@@ -54,17 +54,32 @@ const Header = () => {
                     <ul className="flex gap-8">
                         <li>
                             <Link href="https://github.com/arpit01923" target="blank">
-                                <Image src="/assets/icons/Github.svg" width={25} alt="" height={25} />{" "}
+                                <Image
+                                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg"
+                                    width={25}
+                                    alt="github"
+                                    height={25}
+                                />{" "}
                             </Link>
                         </li>
                         <li>
                             <Link href="https://linkedin.com/in/arpit-kumar-4b11211a4" target="blank">
-                                <Image src="/assets/icons/Linkedin.svg" width={25} alt="" height={25} />{" "}
+                                <Image
+                                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg"
+                                    width={25}
+                                    alt="linkedin"
+                                    height={25}
+                                />{" "}
                             </Link>
                         </li>
                         <li>
                             <Link href="https://twitter.com/arpit_00_02" target="blank">
-                                <Image src="/assets/icons/Twitter.svg" width={25} alt="" height={25} />{" "}
+                                <Image
+                                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Twitter.svg"
+                                    width={25}
+                                    alt="twitter"
+                                    height={25}
+                                />{" "}
                             </Link>
                         </li>
                     </ul>

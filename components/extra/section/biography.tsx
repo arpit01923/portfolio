@@ -38,7 +38,7 @@ const Biography = () => {
                 <div className="order-1 md:order-2 mx-auto">
                     <UserCard>
                         <Image
-                            alt=""
+                            alt="developer-pic"
                             src="/assets/images/resumepic.jpg"
                             width={300}
                             height={200}
