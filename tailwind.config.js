@@ -12,6 +12,10 @@ module.exports = {
             },
             backgroundImage: {
                 circularLight: "repeating-radial-gradient(rgba(0,0,0,0.4),2px,#ffffff 5px,#ffffff 100px)",
+                circularMobileLight: "repeating-radial-gradient(rgba(0,0,0,0.4),2px,#ffffff 5px,#ffffff 50px)",
+            },
+            screens: {
+                xs: "400px",
             },
         },
     },

@@ -53,7 +53,7 @@ const Biography = () => {
                                 <Counter totalCount={3} />+
                             </div>
                         </div>
-                        <p className="text-2xl">Satisfied Clients</p>
+                        <p className="text-sm md:text-2xl lg:text-3xl">Satisfied Clients</p>
                     </div>
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
@@ -61,15 +61,15 @@ const Biography = () => {
                                 <Counter totalCount={5} />+
                             </div>
                         </div>
-                        <p className="text-2xl">Projects Completed</p>
+                        <p className="text-sm md:text-2xl lg:text-3xl">Projects Completed</p>
                     </div>
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
                             <div className="flex justify-center">
-                                <Counter totalCount={1} />+
+                                <Counter totalCount={2} />+
                             </div>
                         </div>
-                        <p className="text-2xl">Years Of Experience</p>
+                        <p className="text-sm md:text-2xl lg:text-3xl">Years Of Experience</p>
                     </div>
                 </div>
             </div>

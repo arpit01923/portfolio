@@ -50,7 +50,7 @@ const Experiences = () => {
     return (
         <>
             <Title classNames="text-3xl sm:text-4xl xl:text-6xl text-center font-bold">Experience</Title>
-            <ul ref={ref} className="max-w-[700px] mx-auto relative grid gap-20">
+            <ul ref={ref} className="xs:max-w-[700px] xs:w-auto w-[280px] mx-auto relative grid gap-20">
                 <motion.div
                     style={{ scaleY: scrollYProgress }}
                     className="absolute -left-8 top-0 w-[4px] h-full bg-black origin-top"
