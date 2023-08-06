@@ -1,22 +1,9 @@
+import { experience } from "@/helper/utils";
+import { motion, useScroll } from "framer-motion";
 import React, { useRef } from "react";
 import Title from "../Title";
-import { motion, useScroll } from "framer-motion";
 import LiIcons from "../icons/liIcons";
 
-const experience = [
-    {
-        position: "MERN Stack Developer",
-        name: "E Software Solutions",
-        dateAndTime: "2022-Present | Haryana, India",
-        title: "Collaborate with the design and backend teams to develop responsive and intuitive user interfaces for web applications.Implement frontend solutions, leveraging React.js to enhance website performance and user engagement.",
-    },
-    {
-        position: "Intern",
-        name: "Emulus Consulting",
-        dateAndTime: "Summer 2022 | Gurugram, India",
-        title: "I am actively engaged in crafting innovative and efficient web applications. With a strong focus on code quality and best practices, I continuously strive to enhance the performance and scalability of React.js projects at Emulus Consulting.",
-    },
-];
 interface ExperienceProps {
     position: string;
     name: string;

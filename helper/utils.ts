@@ -11,7 +11,7 @@ const professionalProjects = [
         liveLink: "https://nainer.com/",
         description:
             "Nainer: The place where founding teams are made, connecting innovation, business, ideas, expertise, investors, and winning collaborations.",
-        tags: ["HTML", "Tailwind CSS", "Next.js", "Typescript", "Socket.io", "Redux"],
+        tags: ["HTML", "Tailwind CSS", "Next.js", "Typescript", "Socket.io", "Redux", "Ag-Grid"],
     },
     {
         projectName: "Book Jane",
@@ -20,6 +20,22 @@ const professionalProjects = [
         description:
             "Jane Bond BBQ is the best restaurant in Calgary, serving fresh & delicious buns & more. Jane Bond BBQ smokes some of Calgary's Best Brisket, Ribs, Pork Belly and more! ",
         tags: ["HTML", "Tailwind CSS", "Next.js"],
+    },
+    {
+        projectName: "Cyltex",
+        src: "/assets/images/projects/cyltex.png",
+        liveLink: "http://dev.cyltex.com/device-monitoring",
+        description:
+            "Cyltex, LLC is a company that manufactures and distributes a wide range of products for the gas industries. They offer a variety of cylinders, valves, regulators, and other accessories for compressed gases. Their products are used in a variety of industries, including welding, healthcare, and manufacturing.",
+        tags: ["HTML", "Tailwind CSS", "Next.js", "Typescript", "Socket.io", "Google Maps API"],
+    },
+    {
+        projectName: "Business Financial Group",
+        src: "/assets/images/projects/bfg.png",
+        liveLink: "https://app.businessfinancialgroup.biz/",
+        description:
+            "Business Financial Group (BFG) is a full-service accounting firm that offers a variety of tax services to businesses and individuals. Their tax team has extensive experience in all aspects of business taxation.",
+        tags: ["HTML", "Tailwind CSS", "Next.js", "Typescript", "Ag-Grid"],
     },
 ];
 const openSourceProjects = [
@@ -87,5 +103,31 @@ const articles = [
         readTime: "2 min read",
     },
 ];
+const education = [
+    {
+        course: "Bachelor of Technology In Computer Science",
+        dateAndTime: "2018-2022 | Kurukshetra University, Kurukshetra, India",
+        title: "A Bachelor of Technology in Computer Science equips individuals with a comprehensive understanding of computer systems and software development, enabling them to tackle complex technological challenges and drive innovation in the digital era.",
+    },
+    {
+        course: "10+2",
+        dateAndTime: "2017-2018 | C.B.S.E, Delhi, India",
+        title: "Completing my education in the CBSE Board's 10+2 system, I gained a comprehensive understanding of diverse subjects, fostering a well-rounded academic foundation.",
+    },
+];
+const experience = [
+    {
+        position: "MERN Stack Developer",
+        name: "E Software Solutions",
+        dateAndTime: "Sept 2022-Present | Haryana, India",
+        title: "Collaborate with the design and backend teams to develop responsive and intuitive user interfaces for web applications.Implement frontend solutions, leveraging React.js to enhance website performance and user engagement.",
+    },
+    {
+        position: "React Developer",
+        name: "Socialpubli Influencer Marketing Company",
+        dateAndTime: "July 2021-Aug 2022 | Vadodara, Gujarat, India",
+        title: "I am actively engaged in crafting innovative and efficient web applications. With a strong focus on code quality and best practices, I continuously strive to enhance the performance and scalability of React.js projects at Socialpubli Influencer Marketing Company.",
+    },
+];
 
-export { menuBar, professionalProjects, openSourceProjects, personalProjects, articles };
+export { menuBar, professionalProjects, openSourceProjects, personalProjects, articles, education, experience };

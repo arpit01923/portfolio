@@ -1,20 +1,9 @@
+import { education } from "@/helper/utils";
+import { motion, useScroll } from "framer-motion";
 import React, { useRef } from "react";
 import Title from "../Title";
-import { useScroll, motion } from "framer-motion";
 import LiIcons from "../icons/liIcons";
 
-const education = [
-    {
-        course: "Bachelor of Technology In Computer Science",
-        dateAndTime: "2018-2022 | Kurukshetra University, Kurukshetra, India",
-        title: "A Bachelor of Technology in Computer Science equips individuals with a comprehensive understanding of computer systems and software development, enabling them to tackle complex technological challenges and drive innovation in the digital era.",
-    },
-    {
-        course: "10+2",
-        dateAndTime: "2017-2018 | C.B.S.E, Delhi, India",
-        title: "Completing my education in the CBSE Board's 10+2 system, I gained a comprehensive understanding of diverse subjects, fostering a well-rounded academic foundation.",
-    },
-];
 interface EducationProps {
     course: string;
     dateAndTime: string;

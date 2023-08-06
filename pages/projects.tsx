@@ -1,4 +1,3 @@
-import SubTitle from "@/components/extra/Subtitle";
 import ProjectCard from "@/components/extra/card/projectCard";
 import AnimateText from "@/components/standard/animateText";
 import { openSourceProjects, personalProjects, professionalProjects } from "@/helper/utils";
@@ -13,10 +12,9 @@ const Projects = () => {
                 <title>Portfolio | Projects</title>
             </Head>
             <section className="grid gap-5">
-                <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold">
-                    Innovative Creations!
+                <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold  my-5">
+                    Professional Projects
                 </AnimateText>
-                <SubTitle classNames="text-lg uppercase font-bold">Professional Projects</SubTitle>
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
                     {professionalProjects.map((item, index) => (
                         <ProjectCard key={index}>
@@ -49,7 +47,9 @@ const Projects = () => {
                         </ProjectCard>
                     ))}
                 </div>
-                <SubTitle classNames="text-lg uppercase font-bold mt-5">Open Source Contribution</SubTitle>
+                <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold  my-5">
+                    Open Source Contribution
+                </AnimateText>
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
                     {openSourceProjects.map((item, index) => (
                         <ProjectCard key={index}>
@@ -84,7 +84,9 @@ const Projects = () => {
                         </ProjectCard>
                     ))}
                 </div>
-                <SubTitle classNames="text-lg uppercase font-bold mt-5">Personal Projects</SubTitle>
+                <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold my-5">
+                    Personal Projects
+                </AnimateText>
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
                     {personalProjects.map((item, index) => (
                         <ProjectCard key={index}>
@@ -117,7 +119,7 @@ const Projects = () => {
                                     <p>
                                         <Link href={item?.githubLink} target="blank">
                                             <Image
-                                                src="/assets/icons/Github.svg"
+                                                src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg"
                                                 width={25}
                                                 alt="github-icon"
                                                 height={25}

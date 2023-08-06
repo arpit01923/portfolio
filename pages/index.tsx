@@ -26,7 +26,8 @@ export default function Home() {
                         Unleashing the Creative Power of a Frontend Developer!
                     </AnimateText>
                     <p className="text-lg text-center md:text-left">
-                        Welcome to my portfolio as a frontend developer! With a passion for creating immersive user
+                        Welcome to my portfolio. I am <strong>Arpit</strong>, a <strong>frontend developer</strong> and
+                        an <strong>open source contributor!</strong> With a passion for creating immersive user
                         experiences, I specialize in crafting elegant and responsive websites. From pixel-perfect
                         designs to seamless interactions, my goal is to bring your vision to life while delivering
                         exceptional functionality and aesthetics. Explore my projects and discover the artistry of
