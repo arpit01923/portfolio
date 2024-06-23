@@ -1,6 +1,6 @@
 import ProjectCard from "@/components/extra/card/projectCard";
 import AnimateText from "@/components/standard/animateText";
-import { openSourceProjects, personalProjects, professionalProjects } from "@/helper/utils";
+import { openSourceProjects, professionalProjects } from "@/helper/utils";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -84,9 +84,9 @@ const Projects = () => {
                         </ProjectCard>
                     ))}
                 </div>
-                <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold my-5">
+                {/* <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center font-bold my-5">
                     Personal Projects
-                </AnimateText>
+                </AnimateText> 
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10">
                     {personalProjects.map((item, index) => (
                         <ProjectCard key={index}>
@@ -130,7 +130,7 @@ const Projects = () => {
                             </div>
                         </ProjectCard>
                     ))}
-                </div>
+                </div> */}
             </section>
         </>
     );
