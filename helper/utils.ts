@@ -6,6 +6,14 @@ const menuBar = [
 ];
 const professionalProjects = [
     {
+        projectName: "Family Flight",
+        src: "/assets/images/projects/family-flight.png",
+        liveLink: "https://www.familyflight.com/",
+        description:
+            "Familyflight are available 24/7 to address your travel needs. Booking a new flight ticket, or check status on the old bookings - we are just a call away and would be glad to address your travel enquires.",
+        tags: ["HTML", "SCSS", "Javascript", "Nuxt.js", "Vue.js"],
+    },
+    {
         projectName: "Nainer",
         src: "/assets/images/projects/nainer.png",
         liveLink: "https://nainer.com/",
@@ -48,35 +56,35 @@ const openSourceProjects = [
         tags: ["HTML", "Next.js", "Typescript", "Testing", "Redux"],
     },
 ];
-const personalProjects = [
-    {
-        projectName: "Video-Library",
-        src: "/assets/images/projects/video-library.png",
-        description:
-            "Laugh Factory is a fully functional video library which provides the different pages like Home Page,Video lising page, Playlist Management, Like/Dislike, Watch Later, History,Login/Signup page.",
-        liveLink: "https://laugh-factory.netlify.app/",
-        githubLink: "https://github.com/arpit01923/Video-Library",
-        tags: ["redux", "javascript", "react-router", "es6", "frontend", "css3", "reactjs"],
-    },
-    {
-        projectName: "E-Commerce",
-        src: "/assets/images/projects/e-commerce.png",
-        description:
-            "An ecommerce website where you will shop product according to latest fashion. Here are the amazing deals. Shopzila can generate a curated list of product according to the filter you apply.",
-        liveLink: "https://shop-zila.netlify.app/",
-        githubLink: "https://github.com/arpit01923/e-com",
-        tags: ["javascript", "react-router", "es6", "css3", "reactjs"],
-    },
-    {
-        projectName: "Browser Extension",
-        src: "/assets/images/projects/browser-extension.png",
-        description:
-            "This is fully functional browser extension which inluded add user name, add main focus,display time and current weather in sync, wallpaper and quote changing on every page refresh,add todos.",
-        liveLink: "https://fresh-move.netlify.app/",
-        githubLink: "https://github.com/arpit01923/browser-extension",
-        tags: ["javascript", "es6", "frontend", "css3", "reactjs", "weather - api"],
-    },
-];
+// const personalProjects = [
+//     {
+//         projectName: "Video-Library",
+//         src: "/assets/images/projects/video-library.png",
+//         description:
+//             "Laugh Factory is a fully functional video library which provides the different pages like Home Page,Video lising page, Playlist Management, Like/Dislike, Watch Later, History,Login/Signup page.",
+//         liveLink: "https://laugh-factory.netlify.app/",
+//         githubLink: "https://github.com/arpit01923/Video-Library",
+//         tags: ["redux", "javascript", "react-router", "es6", "frontend", "css3", "reactjs"],
+//     },
+//     {
+//         projectName: "E-Commerce",
+//         src: "/assets/images/projects/e-commerce.png",
+//         description:
+//             "An ecommerce website where you will shop product according to latest fashion. Here are the amazing deals. Shopzila can generate a curated list of product according to the filter you apply.",
+//         liveLink: "https://shop-zila.netlify.app/",
+//         githubLink: "https://github.com/arpit01923/e-com",
+//         tags: ["javascript", "react-router", "es6", "css3", "reactjs"],
+//     },
+//     {
+//         projectName: "Browser Extension",
+//         src: "/assets/images/projects/browser-extension.png",
+//         description:
+//             "This is fully functional browser extension which inluded add user name, add main focus,display time and current weather in sync, wallpaper and quote changing on every page refresh,add todos.",
+//         liveLink: "https://fresh-move.netlify.app/",
+//         githubLink: "https://github.com/arpit01923/browser-extension",
+//         tags: ["javascript", "es6", "frontend", "css3", "reactjs", "weather - api"],
+//     },
+// ];
 const articles = [
     {
         projectName: "Hoisting In JS",
@@ -117,9 +125,15 @@ const education = [
 ];
 const experience = [
     {
-        position: "MERN Stack Developer",
-        name: "E Software Solutions",
-        dateAndTime: "Sept 2022-Present | Haryana, India",
+        position: "Software Engineer",
+        name: "Farenexus",
+        dateAndTime: "Dec 2023-Present | Mohali, Punjab, India",
+        title: "Optimized code for performance, addressing bottlenecks and improving load times. Develop and integrate RESTful APIs to fetch and display data from server endpoints.",
+    },
+    {
+        position: "Junior Web Developer",
+        name: "eSoftware Solutions",
+        dateAndTime: "Sept 2022-Aug 2023 | Yamuna Nagar, Haryana, India",
         title: "Collaborate with the design and backend teams to develop responsive and intuitive user interfaces for web applications.Implement frontend solutions, leveraging React.js to enhance website performance and user engagement.",
     },
     {
@@ -130,4 +144,4 @@ const experience = [
     },
 ];
 
-export { menuBar, professionalProjects, openSourceProjects, personalProjects, articles, education, experience };
+export { menuBar, professionalProjects, openSourceProjects, articles, education, experience };

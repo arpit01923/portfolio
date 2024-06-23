@@ -39,7 +39,7 @@ const Biography = () => {
                     <UserCard>
                         <Image
                             alt="developer-pic"
-                            src="/assets/images/resumepic.jpg"
+                            src="/assets/images/resumepic.jpeg"
                             width={300}
                             height={200}
                             className="rounded-lg"
@@ -50,7 +50,7 @@ const Biography = () => {
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
                             <div className="flex justify-center">
-                                <Counter totalCount={3} />+
+                                <Counter totalCount={8} />+
                             </div>
                         </div>
                         <p className="text-sm md:text-2xl lg:text-3xl">Satisfied Clients</p>
@@ -58,7 +58,7 @@ const Biography = () => {
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
                             <div className="flex justify-center">
-                                <Counter totalCount={5} />+
+                                <Counter totalCount={10} />+
                             </div>
                         </div>
                         <p className="text-sm md:text-2xl lg:text-3xl">Projects Completed</p>
@@ -66,7 +66,7 @@ const Biography = () => {
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
                             <div className="flex justify-center">
-                                <Counter totalCount={2} />+
+                                <Counter totalCount={3} />+
                             </div>
                         </div>
                         <p className="text-sm md:text-2xl lg:text-3xl">Years Of Experience</p>
