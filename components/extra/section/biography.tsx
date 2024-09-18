@@ -50,7 +50,7 @@ const Biography = () => {
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
                             <div className="flex justify-center">
-                                <Counter totalCount={8} />+
+                                <Counter totalCount={4} />+
                             </div>
                         </div>
                         <p className="text-sm md:text-2xl lg:text-3xl">Satisfied Clients</p>
@@ -66,7 +66,7 @@ const Biography = () => {
                     <div className="text-center">
                         <div className="text-3xl sm:text-4xl xl:text-6xl font-bold">
                             <div className="flex justify-center">
-                                <Counter totalCount={3} />+
+                                <Counter totalCount={2} />+
                             </div>
                         </div>
                         <p className="text-sm md:text-2xl lg:text-3xl">Years Of Experience</p>

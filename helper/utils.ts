@@ -136,12 +136,12 @@ const experience = [
         dateAndTime: "Sept 2022-Aug 2023 | Yamuna Nagar, Haryana, India",
         title: "Collaborate with the design and backend teams to develop responsive and intuitive user interfaces for web applications.Implement frontend solutions, leveraging React.js to enhance website performance and user engagement.",
     },
-    {
-        position: "React Developer",
-        name: "Socialpubli Influencer Marketing Company",
-        dateAndTime: "July 2021-Aug 2022 | Vadodara, Gujarat, India",
-        title: "I am actively engaged in crafting innovative and efficient web applications. With a strong focus on code quality and best practices, I continuously strive to enhance the performance and scalability of React.js projects at Socialpubli Influencer Marketing Company.",
-    },
+    // {
+    //     position: "React Developer",
+    //     name: "Socialpubli Influencer Marketing Company",
+    //     dateAndTime: "July 2021-Aug 2022 | Vadodara, Gujarat, India",
+    //     title: "I am actively engaged in crafting innovative and efficient web applications. With a strong focus on code quality and best practices, I continuously strive to enhance the performance and scalability of React.js projects at Socialpubli Influencer Marketing Company.",
+    // },
 ];
 
 export { menuBar, professionalProjects, openSourceProjects, articles, education, experience };

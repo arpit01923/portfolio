@@ -34,8 +34,10 @@ const Skills = () => {
                     Web
                 </motion.div>
                 <Skill name="HTML" x={isMobileOnly ? "-25vw" : "-19vw"} y={isMobileOnly ? "15vw" : "1vw"} />
+                <Skill name="Socket.io" x={isMobileOnly ? "-25vw" : "-35vw"} y={isMobileOnly ? "15vw" : "8vw"} />
                 <Skill name="CSS" x={isMobileOnly ? "10vw" : "-5vw"} y={isMobileOnly ? "-16vw" : "-9vw"} />
                 <Skill name="JavaScript" x={isMobileOnly ? "30vw" : "19vw"} y={isMobileOnly ? "60vw" : "1vw"} />
+                <Skill name="Graph QL" x={isMobileOnly ? "30vw" : "31vw"} y={isMobileOnly ? "40vw" : "12vw"} />
                 <Skill name="React.Js" x={isMobileOnly ? "-15vw" : "2vw"} y={isMobileOnly ? "40vw" : "9vw"} />
                 <Skill name="TypeScript" x={isMobileOnly ? "-30vw" : "-32vw"} y={isMobileOnly ? "-60vw" : "-4vw"} />
                 <Skill name="Next.Js" x={isMobileOnly ? "-20vw" : "0vw"} y={isMobileOnly ? "-40vw" : "-16vw"} />
@@ -44,6 +46,7 @@ const Skills = () => {
                 <Skill name="Redux Toolkit" x={isMobileOnly ? "-30vw" : "-28vw"} y={isMobileOnly ? "60vw" : "17vw"} />
                 <Skill name="Tailwind CSS" x={isMobileOnly ? "30vw" : "15vw"} y={isMobileOnly ? "-60vw" : "-20vw"} />
                 <Skill name="Nuxt.Js" x={isMobileOnly ? "-30vw" : "-18vw"} y={isMobileOnly ? "-60vw" : "-20vw"} />
+                <Skill name="Firebase" x={isMobileOnly ? "-30vw" : "-28vw"} y={isMobileOnly ? "-60vw" : "-13vw"} />
                 <Skill name="Vue.Js" x={isMobileOnly ? "30vw" : "15vw"} y={isMobileOnly ? "60vw" : "20vw"} />
             </div>
         </>
