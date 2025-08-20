@@ -125,23 +125,35 @@ const education = [
 ];
 const experience = [
     {
+        position: "Frontend Developer",
+        name: "Arborgold Software",
+        dateAndTime: "Jan 2025-Present | Remote, USA",
+        title: "Arborgold Software: Enhanced application performance by optimizing code and reducing load times. Developed and integrated RESTful APIs for efficient data retrieval and display.",
+    },
+    {
         position: "Software Engineer",
         name: "Farenexus",
-        dateAndTime: "Dec 2023-Present | Mohali, Punjab, India",
-        title: "Optimized code for performance, addressing bottlenecks and improving load times. Develop and integrate RESTful APIs to fetch and display data from server endpoints.",
+        dateAndTime: "Dec 2023-Dec 2024 | Mohali, Punjab, India",
+        title: "Farenexus: Improved system efficiency through code optimization and bottleneck resolution. Built and connected RESTful APIs to streamline data handling and presentation.",
+    },
+    {
+        position: "Frontend Developer",
+        name: "Freelancer",
+        dateAndTime: "Aug 2023-Dec 2023 | India",
+        title: "Freelancer: Boosted website performance by refining code and addressing latency issues. Designed and implemented RESTful APIs for seamless data interaction.",
     },
     {
         position: "Junior Web Developer",
         name: "eSoftware Solutions",
         dateAndTime: "Sept 2022-Aug 2023 | Yamuna Nagar, Haryana, India",
-        title: "Collaborate with the design and backend teams to develop responsive and intuitive user interfaces for web applications.Implement frontend solutions, leveraging React.js to enhance website performance and user engagement.",
+        title: "eSoftware Solutions: Worked closely with design and backend teams to create responsive, user-friendly interfaces. Utilized React.js to elevate web application performance and user engagement.",
     },
-    // {
-    //     position: "React Developer",
-    //     name: "Socialpubli Influencer Marketing Company",
-    //     dateAndTime: "July 2021-Aug 2022 | Vadodara, Gujarat, India",
-    //     title: "I am actively engaged in crafting innovative and efficient web applications. With a strong focus on code quality and best practices, I continuously strive to enhance the performance and scalability of React.js projects at Socialpubli Influencer Marketing Company.",
-    // },
+    {
+        position: "React Developer",
+        name: "Socialpubli Influencer Marketing Company",
+        dateAndTime: "July 2021-Aug 2022 | Remote, India",
+        title: "Socialpubli Influencer Marketing Company: Developed high-quality, scalable web applications using React.js, emphasizing code excellence and performance optimization.",
+    },
 ];
 
 export { menuBar, professionalProjects, openSourceProjects, articles, education, experience };
