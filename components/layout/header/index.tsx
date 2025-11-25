@@ -63,7 +63,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://linkedin.com/in/arpit-kumar-4b11211a4" target="blank">
+                            <Link href="https://www.linkedin.com/in/arpit-4b11211a4" target="blank">
                                 <Image
                                     src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg"
                                     width={25}
