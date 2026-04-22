@@ -137,13 +137,7 @@ const experience = [
         title: "Farenexus: Improved system efficiency through code optimization and bottleneck resolution. Built and connected RESTful APIs to streamline data handling and presentation.",
     },
     {
-        position: "Frontend Developer",
-        name: "Freelancer",
-        dateAndTime: "Aug 2023-Dec 2023 | India",
-        title: "Freelancer: Boosted website performance by refining code and addressing latency issues. Designed and implemented RESTful APIs for seamless data interaction.",
-    },
-    {
-        position: "Junior Web Developer",
+        position: "MERN Stack Developer",
         name: "eSoftware Solutions",
         dateAndTime: "Sept 2022-Aug 2023 | Yamuna Nagar, Haryana, India",
         title: "eSoftware Solutions: Worked closely with design and backend teams to create responsive, user-friendly interfaces. Utilized React.js to elevate web application performance and user engagement.",

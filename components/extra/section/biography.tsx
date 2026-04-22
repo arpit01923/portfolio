@@ -35,11 +35,11 @@ const Biography = () => {
                         </p>
                     </div>
                 </div>
-                <div className="order-1 md:order-2 mx-auto">
+                <div className="order-1 md:order-2 mx-auto self-center">
                     <UserCard>
                         <Image
                             alt="developer-pic"
-                            src="/assets/images/resumepic.jpeg"
+                            src="/assets/images/pic.jpg"
                             width={300}
                             height={200}
                             className="rounded-lg"
