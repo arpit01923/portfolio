@@ -13,21 +13,22 @@ const quote = {
     animate: {
         opacity: 1,
         transition: {
-            delay: 0.5,
-            staggerChildren: 0.08,
+            delay: 0.08,
+            staggerChildren: 0.04,
         },
     },
 };
 const singleWord = {
     initial: {
-        opacity: 0,
-        y: 50,
+        opacity: 1,
+        y: 18,
     },
     animate: {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 1,
+            duration: 0.45,
+            ease: [0.25, 0.1, 0.25, 1],
         },
     },
 };

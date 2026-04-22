@@ -10,16 +10,20 @@ export default function Home() {
         <>
             <Head>
                 <title>Portfolio | Home</title>
+                <meta
+                    name="description"
+                    content="Portfolio of Arpit — full-stack developer focused on frontend, open source, and polished web experiences."
+                />
             </Head>
             <main className="grid p-5 place-items-center lg:grid-cols-2 gap-10">
                 <Image
                     src="/assets/images/developer-pic-1.webp"
-                    alt="developer-pic-1"
-                    width="0"
-                    height="0"
-                    sizes="100vh"
+                    alt="Arpit — full-stack developer"
+                    width={560}
+                    height={560}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                     className="w-full h-auto"
-                    loading="lazy"
+                    priority
                 />
                 <div className="grid gap-5">
                     <AnimateText className="text-xl sm:text-4xl xl:text-6xl text-center md:text-left font-bold">

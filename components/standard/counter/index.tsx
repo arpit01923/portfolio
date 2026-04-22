@@ -9,7 +9,7 @@ const Counter: React.FC<Props> = ({ totalCount }) => {
     const rounded = useTransform(count, Math.round);
 
     useEffect(() => {
-        const animation = animate(count, totalCount, { duration: 1 });
+        const animation = animate(count, totalCount, { duration: 0.65, ease: "easeOut" });
 
         return animation.stop;
     }, []);

@@ -1,7 +1,7 @@
+import { useMobileViewport } from "@/hooks/useMobileViewport";
 import React from "react";
 import { motion } from "framer-motion";
 import Title from "../Title";
-import { isMobileOnly } from "react-device-detect";
 
 interface SkillProps {
     name: string;
@@ -23,6 +23,8 @@ const Skill: React.FC<SkillProps> = ({ name, x, y }) => {
     );
 };
 const Skills = () => {
+    const isMobileOnly = useMobileViewport();
+
     return (
         <>
             <Title classNames="text-3xl sm:text-4xl xl:text-6xl text-center font-bold">Skills</Title>

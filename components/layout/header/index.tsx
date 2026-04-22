@@ -1,12 +1,18 @@
 import Logo from "@/components/extra/logo";
-import MobileSidebar from "@/components/standard/modal/mobileSidebar";
 import { menuBar } from "@/helper/utils";
-import Image from "next/image";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
+
+const MobileSidebar = dynamic(() => import("@/components/standard/modal/mobileSidebar"), {
+    ssr: false,
+    loading: () => null,
+});
+
+const SOCIAL_ICON = { width: 25, height: 25, decoding: "async" as const, loading: "lazy" as const };
 
 const Header = () => {
     const [openModal, setOpenModal] = useState(false);
@@ -53,33 +59,37 @@ const Header = () => {
                 <nav className="hidden md:block">
                     <ul className="flex gap-8">
                         <li>
-                            <Link href="https://github.com/arpit01923" target="blank">
-                                <Image
+                            <Link href="https://github.com/arpit01923" target="_blank" rel="noopener noreferrer">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
                                     src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg"
-                                    width={25}
-                                    alt="github"
-                                    height={25}
-                                />{" "}
+                                    alt="GitHub"
+                                    {...SOCIAL_ICON}
+                                />
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://www.linkedin.com/in/arpit-4b11211a4" target="blank">
-                                <Image
+                            <Link
+                                href="https://www.linkedin.com/in/arpit-4b11211a4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
                                     src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/LinkedIn.svg"
-                                    width={25}
-                                    alt="linkedin"
-                                    height={25}
-                                />{" "}
+                                    alt="LinkedIn"
+                                    {...SOCIAL_ICON}
+                                />
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://twitter.com/arpit_00_02" target="blank">
-                                <Image
+                            <Link href="https://twitter.com/arpit_00_02" target="_blank" rel="noopener noreferrer">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
                                     src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Twitter.svg"
-                                    width={25}
-                                    alt="twitter"
-                                    height={25}
-                                />{" "}
+                                    alt="Twitter"
+                                    {...SOCIAL_ICON}
+                                />
                             </Link>
                         </li>
                     </ul>
